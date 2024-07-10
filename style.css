@@ -1,0 +1,135 @@
+/* Every element */
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+  background-size: cover;
+}
+
+/* index.html CSS */
+.container{
+  display: flex;
+}
+
+body{
+  height: fit-content;
+  background-image: linear-gradient(rgba(45, 45, 45, 0.6), rgba(45, 45, 45, 0.6)), url(https://media.cntraveler.com/photos/5ed63f1968c9102acb8489ca/16:9/w_2560%2Cc_limit/LisbonReopening-2020-GettyImages-655540080.jpg);
+  background-size: cover;
+}
+
+#header{
+  font-size: 25px;
+  font-weight: bolder;
+  justify-content: center;
+  text-align: center;
+  background: -webkit-linear-gradient(left, rgb(21, 255, 0), rgb(255, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#navigation a{
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 3px solid white;
+  flex: 1;
+  transition: 1s ease;
+}
+
+#navigation a:hover{
+  border: 3px solid gray;
+  color: gray;
+}
+
+#active, #active:hover{
+  background-color: rgba(0, 203, 253, 0.7);
+  border: 3px solid white;
+  color: white;
+}
+
+#main{
+  align-items: center;
+  font-size: 30px;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+  color: rgb(212, 235, 7);
+  padding: 300px;
+  text-align: center;
+}
+
+#learnMore{
+  font-size: 20px;
+  flex-direction: column;
+  margin: 10px;
+  text-decoration: none;
+  justify-content: center;
+  color: rgb(255, 0, 0);
+  padding: 0px;
+  text-align: center;
+}
+
+#footer{ 
+  font-weight: bold;
+  font-size: 25px;
+  justify-content: center;
+  color: red;
+  margin-bottom: auto;
+}
+
+/* Lifestyle.html CSS */
+#paragraph{
+  list-style-type: square;
+  margin: 10px;
+  padding: 5px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(201, 200, 200, 0.4);
+}
+
+li a{
+  text-decoration: none;
+  color: lightcoral;
+}
+
+li a:hover{
+  color: rgb(92, 0, 0);  
+}
+
+/* Gallery.html CSS */
+
+#mainImages{
+  text-align: center;
+  flex-flow: column;
+}
+
+#picturesInfo{
+  flex: 1;
+  font-size: 25px;
+  text-decoration: underline;
+  color: white; 
+  text-align: center; 
+}
+
+#gallery{
+  flex: 1;
+  margin: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 650px;
+}
+
+/* information.html CSS */
+.information{
+  margin: 20px;
+  border: 3px solid black;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: rgba(201, 200, 200, 0.4);
+}
